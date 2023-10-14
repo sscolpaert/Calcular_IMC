@@ -18,7 +18,7 @@ O programa solicitará que você insira o seu peso e altura. Siga as instruçõe
 
 Após inserir o peso e altura, o programa calculará o IMC e informará a classificação do IMC, como "Abaixo do peso," "Peso saudável," "Sobrepeso" ou "Obesidade."
 
-### Como funciona
+## Como funciona
 O código-fonte do programa é escrito em Java e faz uso da classe Scanner para ler as entradas do usuário a partir do teclado. O IMC é calculado usando a fórmula padrão:
 
 makefile
@@ -26,9 +26,9 @@ Copy code
 IMC = Peso / (Altura * Altura)
 O IMC é então classificado em faixas, e uma mensagem é exibida com a classificação.
 
-#### Contribuição
+## Contribuição
 Sinta-se à vontade para contribuir para este projeto ou fazer melhorias. Você pode criar um fork deste repositório, fazer suas modificações e enviar um pull request. Suas contribuições são bem-vindas!
 
-##### Licença
+## Licença
 Este programa é distribuído sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
 
