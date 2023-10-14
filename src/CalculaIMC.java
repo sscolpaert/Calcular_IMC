@@ -25,22 +25,22 @@ public class CalculaIMC {
         //calcula:
         imc = peso / (altura * altura);
 
-        //Adiciona uma condição para classificar o IMC
+        // Adicione uma condição para classificar o IMC
+        String classificacao = "";
         if (imc < 18.5) {
-            System.out.println("Abaixo do Peso");
+            classificacao = "Abaixo do peso";
+        } else if (imc >= 18.5 && imc < 25.0) {
+            classificacao = "Peso saudável";
+        } else if (imc >= 25.0 && imc < 30.0) {
+            classificacao = "Sobrepeso";
+        } else {
+            classificacao = "Obesidade";
         }
-        else if (imc >=18.5 && imc <25.0){
-            System.out.println("Peso Saudável");
-        }
-        else if (imc >= 25.0 && imc < 30.0){
-            System.out.println("Sobrepeso");
-        }
-        else {
-            System.out.println("Obesidade");
-        }
+
 
         //Imprime o resultado
         //Note que pode-se concatenar o resultado com a impressao de texto
+        System.out.println("\nClassificação do IMC: " + classificacao);
         System.out.println("\n\tO IMC desta pessoa é " + imc + "\n\n");
     }
 }
