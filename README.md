@@ -34,4 +34,3 @@ O IMC desta pessoa é 23.02
 Lembrando que os valores de peso e altura devem ser inseridos em quilogramas e metros, respectivamente.
 
 Este programa é uma ferramenta simples para calcular o IMC de uma pessoa e fornecer uma indicação geral de seu estado de saúde com base no IMC.
-MIT
